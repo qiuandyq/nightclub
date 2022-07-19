@@ -42,17 +42,37 @@ export const App = () => {
                   </Grid>
                   <Grid item xs={12}>
                     <Typography variant="p" sx={{ fontWeight: '400' }}>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing Lorem
-                      Ipsum passages, and more recently with desktop publishing
-                      software like Aldus PageMaker including versions of Lorem
-                      Ipsum.
+                      The NightClub App is an application that provides users,
+                      club owners, and DJs a one stop shop for all their club
+                      needs. For users, they are able to view clubs within their
+                      area and scope out which club they want to go to. Within
+                      each club page, users can view information such as hours
+                      of operation, special events, and more. In addition users
+                      are also able to make song requests and also book tables
+                      at a venue through this app. For Club Owners, they are
+                      able to display information, edit menu, view bookings for
+                      tables, and more. For DJs, they are able to view song
+                      requests and special announcements submitted by the DJs.
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      <Link
+                        href="https://docs.google.com/presentation/d/1E5ivBBBQgjOPdOdpv6vmwX99etDC1rkd07CZwgv86Bc/edit#slide=id.p"
+                        underline="hover"
+                      >
+                        Link to Project Pitch Slides
+                      </Link>
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      <Link
+                        href="https://docs.google.com/presentation/d/12XVq_q52xl0T9NW6iVoT3P6xkG4hruHM2upbfdlWpnc/edit#slide=id.g13d1311500e_1_0"
+                        underline="hover"
+                      >
+                        Link to S.A.T. 1 Slides
+                      </Link>
                     </Typography>
                   </Grid>
                   <Grid item xs={12}>
@@ -67,14 +87,31 @@ export const App = () => {
                         href="https://github.com/sma3134/Nightclub-App"
                         underline="hover"
                       >
-                        <GitHubIcon /> Link to GitHub
+                        <GitHubIcon /> Link to Application GitHub
                       </Link>
                     </Grid>
                   </Grid>
                   <Grid item xs={12}>
-                    <Button variant="contained" onClick={onDownload}>
+                    <Grid container direction="row" alignItems="center">
+                      <Link
+                        href="https://github.com/qiuandyq/nightclub"
+                        underline="hover"
+                      >
+                        <GitHubIcon /> Link to Website GitHub
+                      </Link>
+                    </Grid>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Button
+                      variant="contained"
+                      onClick={onDownload}
+                      disabled="true"
+                    >
                       Download APK
                     </Button>
+                    <Typography variant="p" sx={{ paddingLeft: '1rem' }}>
+                      APK currently unavailable
+                    </Typography>
                   </Grid>
                 </Grid>
               </Grid>
