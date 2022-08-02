@@ -14,7 +14,10 @@ const theme = createTheme({
 
 export const App = () => {
   const onDownload = () => {
-    console.log('download')
+    // const link = document.createElement('a')
+    // link.download = `NightclubApp.apk`
+    // link.href = '../public/NightclubApp.apk'
+    // link.click()
   }
 
   return (
@@ -88,6 +91,30 @@ export const App = () => {
                       </Grid>
                     </Grid>
                   </Grid>
+                  {/* <Grid item xs={12}>
+                    <Grid container spacing={2} direction="row">
+                      <Grid item xs={6}>
+                        <Typography variant="p">
+                          <Link
+                            href="https://docs.google.com/presentation/d/12XVq_q52xl0T9NW6iVoT3P6xkG4hruHM2upbfdlWpnc/edit#slide=id.g13d1311500e_1_0"
+                            underline="hover"
+                          >
+                            Link to S.A.T. 1 Slides
+                          </Link>
+                        </Typography>
+                      </Grid>
+                      <Grid item xs={6}>
+                        <Typography variant="p">
+                          <Link
+                            href="https://youtu.be/DsVECrVilgQ"
+                            underline="hover"
+                          >
+                            Link to S.A.T. 1 Youtube Video
+                          </Link>
+                        </Typography>
+                      </Grid>
+                    </Grid>
+                  </Grid> */}
                   <Grid item xs={12}>
                     <Typography variant="p">
                       Team Members: Andy Qiu, Keenan Byun, Inderdeep Manan,
@@ -117,14 +144,16 @@ export const App = () => {
                   <Grid item xs={12}>
                     <Button
                       variant="contained"
-                      onClick={onDownload}
-                      disabled="true"
+                      href="/NightclubApp.apk"
+                      // onClick={onDownload}
+                      download
+                      // disabled="true"
                     >
                       Download APK
                     </Button>
-                    <Typography variant="p" sx={{ paddingLeft: '1rem' }}>
+                    {/* <Typography variant="p" sx={{ paddingLeft: '1rem' }}>
                       APK currently unavailable
-                    </Typography>
+                    </Typography> */}
                   </Grid>
                 </Grid>
               </Grid>
