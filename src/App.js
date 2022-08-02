@@ -5,7 +5,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 import Link from '@mui/material/Link'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import Button from '@mui/material/Button'
-import DownloadIcon from '@mui/icons-material/Download'
 
 const theme = createTheme({
   typography: {
@@ -130,7 +129,7 @@ export const App = () => {
                 </Grid>
               </Grid>
               <Grid item xs={4}>
-                <img src="/homepage.png" alt="home" />
+                <img src="/map.png" alt="map" style={{ width: '350px' }} />
               </Grid>
             </Grid>
           </Grid>
