@@ -13,13 +13,6 @@ const theme = createTheme({
 })
 
 export const App = () => {
-  const onDownload = () => {
-    // const link = document.createElement('a')
-    // link.download = `NightclubApp.apk`
-    // link.href = '../public/NightclubApp.apk'
-    // link.click()
-  }
-
   return (
     <ThemeProvider theme={theme}>
       <Container maxWidth="md" sx={{ paddingTop: '10rem' }}>
@@ -91,30 +84,30 @@ export const App = () => {
                       </Grid>
                     </Grid>
                   </Grid>
-                  {/* <Grid item xs={12}>
+                  <Grid item xs={12}>
                     <Grid container spacing={2} direction="row">
                       <Grid item xs={6}>
                         <Typography variant="p">
                           <Link
-                            href="https://docs.google.com/presentation/d/12XVq_q52xl0T9NW6iVoT3P6xkG4hruHM2upbfdlWpnc/edit#slide=id.g13d1311500e_1_0"
+                            href="https://docs.google.com/presentation/d/10KdAcWubPYZgm0YjLw_ZSespxXUnrDUBN5pb8ZQvXsA/edit#slide=id.p"
                             underline="hover"
                           >
-                            Link to S.A.T. 1 Slides
+                            Link to S.A.T. 2 Slides
                           </Link>
                         </Typography>
                       </Grid>
-                      <Grid item xs={6}>
+                      {/* <Grid item xs={6}>
                         <Typography variant="p">
                           <Link
                             href="https://youtu.be/DsVECrVilgQ"
                             underline="hover"
                           >
-                            Link to S.A.T. 1 Youtube Video
+                            Link to S.A.T. 2 Youtube Video
                           </Link>
                         </Typography>
-                      </Grid>
+                      </Grid> */}
                     </Grid>
-                  </Grid> */}
+                  </Grid>
                   <Grid item xs={12}>
                     <Typography variant="p">
                       Team Members: Andy Qiu, Keenan Byun, Inderdeep Manan,
