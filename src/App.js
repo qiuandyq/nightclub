@@ -99,7 +99,7 @@ export const App = () => {
                       <Grid item xs={6}>
                         <Typography variant="p">
                           <Link
-                            href="https://youtu.be/9Kt7t7jrISg"
+                            href="https://youtu.be/D2wq_KtLq00"
                             underline="hover"
                           >
                             Link to S.A.T. 2 Youtube Video
