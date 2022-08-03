@@ -96,16 +96,16 @@ export const App = () => {
                           </Link>
                         </Typography>
                       </Grid>
-                      {/* <Grid item xs={6}>
+                      <Grid item xs={6}>
                         <Typography variant="p">
                           <Link
-                            href="https://youtu.be/DsVECrVilgQ"
+                            href="https://youtu.be/9Kt7t7jrISg"
                             underline="hover"
                           >
                             Link to S.A.T. 2 Youtube Video
                           </Link>
                         </Typography>
-                      </Grid> */}
+                      </Grid>
                     </Grid>
                   </Grid>
                   <Grid item xs={12}>
