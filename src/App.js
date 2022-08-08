@@ -168,6 +168,11 @@ export const App = () => {
                   </Grid>
                   <Grid item xs={12}>
                     <Typography variant="p">
+                      *view github page for information about API keys
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
                       *note to sign in as a club manager you must tap version 7
                       times and you can use the following accounts
                     </Typography>
