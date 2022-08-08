@@ -110,6 +110,16 @@ export const App = () => {
                   </Grid>
                   <Grid item xs={12}>
                     <Typography variant="p">
+                      <Link
+                        href="https://youtu.be/Vaq2XqWxqhc"
+                        underline="hover"
+                      >
+                        Link to Final Presentation
+                      </Link>
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
                       Team Members: Andy Qiu, Keenan Byun, Inderdeep Manan,
                       Seungjae Ma, Yufeng Luo
                     </Typography>
@@ -135,18 +145,50 @@ export const App = () => {
                     </Grid>
                   </Grid>
                   <Grid item xs={12}>
-                    <Button
-                      variant="contained"
-                      href="/NightclubApp.apk"
-                      // onClick={onDownload}
-                      download
-                      // disabled="true"
-                    >
-                      Download APK
-                    </Button>
-                    {/* <Typography variant="p" sx={{ paddingLeft: '1rem' }}>
-                      APK currently unavailable
-                    </Typography> */}
+                    <Grid container spacing={2} direction="row">
+                      <Grid item xs={6}>
+                        <Button
+                          variant="contained"
+                          href="/NightclubApp.apk"
+                          download
+                        >
+                          Download APK
+                        </Button>
+                      </Grid>
+                      <Grid item xs={6}>
+                        <Button
+                          variant="contained"
+                          href="/nightclubapp.zip"
+                          download
+                        >
+                          Download Source Code
+                        </Button>
+                      </Grid>
+                    </Grid>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      *note to sign in as a club manager you must tap version 7
+                      times and you can use the following accounts
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      Barnonenightclub@gmail.com
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">Auranightclub@gmail.com</Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      Celebritiesnightclub@gmail.com
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12}>
+                    <Typography variant="p">
+                      With the password:t9BXTdEcVd
+                    </Typography>
                   </Grid>
                 </Grid>
               </Grid>
