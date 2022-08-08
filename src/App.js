@@ -15,7 +15,10 @@ const theme = createTheme({
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="md" sx={{ paddingTop: '10rem' }}>
+      <Container
+        maxWidth="md"
+        sx={{ paddingTop: '10rem', paddingBottom: '10rem' }}
+      >
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Grid
